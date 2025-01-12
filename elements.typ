@@ -87,14 +87,6 @@
   strong(it)
 }
 
-#let table-of-contents() = {
-  set text(font: "IBM Plex Sans", tracking: 0.02em)
-  outline(
-    title: "TABLE OF CONTENTS",
-    depth: 1
-  )
-}
-
 #let biobox(body) = {
   set align(center) 
   v(1em)

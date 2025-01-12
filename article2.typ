@@ -1,6 +1,5 @@
 #import "elements.typ": *
 
-
 #abstract(
   [Varieties of Belief in #emph[The Brothers Karamazov]],
   abstract-author: [Gary Saul Morson],
@@ -31,8 +30,9 @@ believe or reject that what they already, in some sense, believe.  ]
 #image("articlestart.png", width: 30pt)
 #set align(left)
 
-#heading(outlined: true, outline: "Custom Outline Text")[Varieties of Belief in _The Brothers Karamazov_]
+#let subtitle = "Your Subtitle"
 
+#heading(level: 1)[Varieties of Belief in _The Brothers Karamazov_]
 #author[Gary Saul Morson]
 
 #epigraph[Lord, I believe; help Thou my unbelief. --- Mark 9:24]
@@ -87,8 +87,6 @@ whole package at a time. No arguments or evidence could ever shake any
 of these beliefs because no argument or evidence led to its adoption. As
 Jonathan Swift once remarked, no one was ever talked out of a belief he
 had not first been talked into.
-
-= Hello World
 
 Adelaida Ivanovna resembled this would-be Ophelia, except that the
 beliefs she adopted were those of the next, radical, rather than
