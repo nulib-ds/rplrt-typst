@@ -10,7 +10,7 @@
 
 #let title(body) = {
   set text(font: "IBM Plex Sans",
-  weight: 600,
+  weight: 400,
   size: 28pt)
   set align(center)
   image("articlestart.png", width: 30pt)
@@ -19,7 +19,7 @@
 
 #let subtitle(body) = {
   set align(center)
-  set text(font: "IBM Plex Sans", size: 20pt, weight: 600)
+  set text(font: "IBM Plex Sans", size: 20pt, weight: 500)
   [#body]
 }
 
@@ -39,7 +39,6 @@
 
 #let epigraph(body) = {
   set align(right)
-  set text(font: "Adobe Text Pro")
   [#body]
 }
 
@@ -110,7 +109,7 @@
 level: 2
 ): it => block(width: 100% )[
     #set align(center)
-    #set text(font: "IBM Plex Sans")
+    #set text(font: "IBM Plex Sans", weight: 500)
   ]
 
 #set text(
@@ -120,6 +119,18 @@ level: 2
 #let article(article-header, content) = {
   article-header
   content
+}
+
+#show outline.entry.where(
+  level: 1,
+  body: [Distinguished Contributions]
+): it => {
+  set text(font: "IBM Plex Sans", size: 12pt, stretch: 75%, weight: 300)
+  link(it.element.location(), box(width: 100%)[
+    #v(2em)
+    #it.body
+    #v(1em)
+  ])
 }
 
 #set footnote.entry(

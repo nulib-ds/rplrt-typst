@@ -30,10 +30,9 @@ believe or reject that what they already, in some sense, believe.  ]
 #image("articlestart.png", width: 30pt)
 #set align(left)
 
-#let subtitle = "Your Subtitle"
-
-#heading(level: 1)[Varieties of Belief in _The Brothers Karamazov_]
+#heading(level: 2)[Varieties of Belief in \ _The Brothers Karamazov_]
 #author[Gary Saul Morson]
+
 
 #epigraph[Lord, I believe; help Thou my unbelief. --- Mark 9:24]
 
@@ -120,7 +119,7 @@ Faith”---\[#emph[Veruyushchie baby];\]) and “A Lady of Little Faith”
 (belief or faith) in these chapter titles suggests the importance and
 complexity of this theme.
 
-== Doubting Thomas
+=== Doubting Thomas
 
 In different ways, Fyodor Pavlovich and his three legitimate sons
 illustrate important insights about the nature of belief. When the
@@ -214,7 +213,7 @@ reservation in the world as he experienced it. But what if that world
 should disconfirm his belief? What if he had to choose between his
 realism and his belief in miracles? That is precisely what happens.
 
-== Fyodor Pavlovich: The Liar
+=== Fyodor Pavlovich: The Liar
 
 Early in the novel the narrator describes how Fyodor Pavlovich loves to
 play a part “even to his own direct disadvantage,” as he did when Miusov
@@ -293,7 +292,7 @@ to himself and yet can indulge in it with all the fervor that she does.
 Indeed, he does everything he can to exaggerate the contradictions, as a
 kind of sport.
 
-== Dmitri
+=== Dmitri
 
 Dmitri tells Alyosha that, in the depths of degradation, he experiences
 ugliness as beautiful. “Beauty is a terrible and awful thing,” he
@@ -325,7 +324,7 @@ be! “Man is broad, too broad, indeed,” Dmitri concludes. “I'd have him
 narrower.” That, of course, is what Ivan's Grand Inquisitor proposes to
 do.
 
-== Ivan's Belief and Disbelief
+=== Ivan's Belief and Disbelief
 
 At once an extreme moralist and an amoral denier that objective morality
 exists, Ivan is even more disturbed than Dmitri by his adherence to
@@ -454,7 +453,7 @@ how can he believe in Christ lies outside the truth?
 The answer is that faith as a striving for faith, faith as a process,
 involves just such a paradox. Faith lies in the attempt to achieve it.
 
-== Alyosha's Crisis
+=== Alyosha's Crisis
 
 If Ivan suffers from extreme doubt, Alyosha is all too certain. The
 incidents following the death of Father Zosima “exerted a very strong
