@@ -12,10 +12,11 @@ level: 1
 #show heading.where(
   level: 2
 ): it => block(width: 100%, above: 2em, below: 1em)[
-    #set align(center)
-    #set text(font: "IBM Plex Sans", size: 26pt, weight: 500)
-    #it.body
-  ]
+  #set align(center)
+    #set par(leading: .5em)
+  #set text(font: "IBM Plex Sans", size: 26pt, weight: 500)
+  #it.body
+]
 
 
 #show heading.where(

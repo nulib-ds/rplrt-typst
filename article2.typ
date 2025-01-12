@@ -1,5 +1,6 @@
 #import "elements.typ": *
 
+
 #abstract(
   [Varieties of Belief in #emph[The Brothers Karamazov]],
   abstract-author: [Gary Saul Morson],
@@ -26,13 +27,50 @@ of human nature. Humans are beings in transition; forever striving to
 believe or reject that what they already, in some sense, believe.  ]
 )
 
+#set page(
+  header-ascent: 40%,
+  header: context {
+    set text(8pt, font: "IBM Plex Sans", stretch: 75%, weight: 400)
+    let heading = query(heading.where(level: 2)).first()
+    let current-page = here().page()
+    if current-page == heading.location().page() [
+      #grid(
+        columns: (45%, 45%),
+        gutter: 10%,
+        [
+          NORTHWESTERN UNIVERSITY STUDIES IN RUSSIAN\
+          PHILOSOPHY, LITERATURE, AND RELIGIOUS THOUGHT
+        ],
+        align(right)[
+          Volume 1 (2024): #current-page#sym.dash.en#locate(<end>).page() \
+          DOI: 111.111.111/example
+        ]
+      )
+    ] else if calc.even(current-page) [
+      #set align(center)
+      #set text(font: "IBM Plex Sans", size: 11pt, weight: 600)
+      #upper([Gary Saul Morson])
+    ] else [
+      #set align(center)
+      #set text(font: "IBM Plex Sans", size: 11pt, weight: 300, tracking: .1em)
+  #upper([_Varieties of Belief in _The Brothers Karamazov__])
+    ]
+  }
+)
+
+#v(2em)
+
 #set align(center)
 #image("articlestart.png", width: 30pt)
 #set align(left)
 
-#heading(level: 2)[Varieties of Belief in \ _The Brothers Karamazov_]
-#author[Gary Saul Morson]
+#set par(justify: true)
 
+
+#heading(level: 2)[Varieties of Belief in \ _The Brothers Karamazov_]
+#v(1em)
+
+#author[Gary Saul Morson]
 
 #epigraph[Lord, I believe; help Thou my unbelief. --- Mark 9:24]
 
@@ -586,3 +624,4 @@ numerous awards for teaching and scholarship. His most recent book is
 #emph[Wonder Confronts Certainty: Russian Writers on the Timeless
 Questions];.]
 
+<end>

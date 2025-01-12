@@ -10,4 +10,4 @@ as credit is given to the authors.
 Proudly published for the web and print by Northwestern University Libraries in
 Evanston Illinois.
 
-Library of Congress ISSN 3065–075
+Library of Congress ISSN 3065–0755

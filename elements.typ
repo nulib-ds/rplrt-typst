@@ -48,7 +48,7 @@
     set par(indent: 0pt)
 }
 
-#let abstract(abstract-title, abstract-subtitle: none, abstract-author: none, body) = {
+#let abstract(abstract-title, abstract-subtitle: none, abstract-author: none, body, abstract-keywords: none) = {
   set text(font: "Adobe Text Pro", size: 12pt)
   set par(justify: true)
   
@@ -75,7 +75,9 @@
     #v(2em)
     #set align(center)
     #image("articlend.png", width: 30pt)
-    #set align(center)
+    #set align(left)
+    #v(1fr)
+    *Keywords:* #abstract-keywords
   ]
 }
 

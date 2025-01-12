@@ -1,29 +1,13 @@
 #import "elements.typ": *
 
 #abstract(
-  [Varieties of Belief in #emph[The Brothers Karamazov]],
-  abstract-author: [Gary Saul Morson],
+  [Momentous Intersections],
+  abstract-subtitle: [A Comparative View on Russian and Jewish
+Spiritual Traditions],
+  abstract-author: [Mikhail Epstein],
   [
-    Since the Enlightenment, many intellectuals have presumed that religious
-belief is an aspect of human psychology that can---and ought---to be
-avoided. Fyodor Dostoevsky rejects this assumption. His novels contend
-that faith cannot be easily evaded, because belief is integral to human
-experience. This article explores how Dostoevsky understood faith as an
-activity that mirrored more ostensibly secular pursuits, like play
-acting. Morson analyzes four varieties of role playing, and, by
-extension, of believing, in #emph[The Brothers Karamazov];. These roles
-include: the liar (Fyodor), the aesthete (Dmitri), the skeptic (Ivan),
-and the believer (Alyosha). Much like belief, play acting is often
-distinguished from the real activity. The stage has an illusory quality.
-Yet Dostoevsky's novels show that the seam between life and acting is
-more porous than one might think, because pretension and sincerity are
-often indistinguishable in human psychology. Dostoevsky implies that if
-actions can be concurrently feigned and genuine, then the basis of all
-human activity is one of simultaneously believing and unbelieving. The
-upshot is that “belief” includes doubt and imperfection; faith is a
-dynamic process. The paradoxes of belief thus illuminate the paradoxes
-of human nature. Humans are beings in transition; forever striving to
-believe or reject that what they already, in some sense, believe.  ]
+    This article is a philosophical and admittedly subjective attempt (drawing on the author's life experience) to discern general features of the Russian and Jewish national character and their interaction in the twentieth century. Several common traits of Jewish and Russian spirituality (or religious psychology) and national identity are discussed. These include messianic strivings and the belief in being God's chosen people, which simultaneously unify and divide both nations; a tendency to utopian thinking; adherence to the ideals of social equality and justice; a feeling for the national element with which personality becomes merged and thereby finds itself; a tendency to wandering, to rootlessness, and to nomadism; universalism and the easy assimilation of cultural customs; and centuries-long experience of suffering and persecution. The author's reflections on Jewish and Russian national and spiritual identity draw on a broad range of writers, including Nikolai Gogol, Fyodor Dostoyevsky, Vladimir Solovyov, Dmitry Merezhkovsky, Nikolai Berdyaev, Vasily Rozanov, Osip Mandelstam, Boris Pasternak, and Gershom Sholem.],
+  abstract-keywords: [Russian spirituality, Jewish spirituality, Russian national character, Jewish national character, Russian messianism, Jewish messianism, notions of the "chosen people"]
 )
 
 #set align(center)
@@ -32,10 +16,12 @@ believe or reject that what they already, in some sense, believe.  ]
 
 #heading(level: 2)[Momentous Intersections]
 
-#subtitle([A Comparative View on Russian and Jewish
+#v(1em)
+#subtitle([A Comparative View on Russian and Jewish \
 Spiritual Traditions])
 
-#author[Gary Saul Morson]
+#v(1em)
+#author[Mikhail Epstein]
 
 #epigraph[
 #emph[Tell me, a draughtsman of the desert, \
