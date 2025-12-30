@@ -42,14 +42,9 @@
   [#body]
 }
 
-#let blockquote(content) = {
-    blockquote[content]
-    // Prevent indentation for the next paragraph
-    set par(indent: 0pt)
-}
 
-#let abstract(abstract-title, abstract-subtitle: none, abstract-author: none, body, abstract-keywords: none) = {
-  set text(font: "Adobe Text Pro", size: 12pt)
+#let abstract(abstract-title, abstract-subtitle: none, abstract-author: none, body, abstract-keywords: [nothingness, testing, kitty cats, ontology, meow]) = {
+  set text(font: "Libertinus Serif", size: 12pt)
   set par(justify: true)
   
   rect(
@@ -81,13 +76,6 @@
   ]
 }
 
-#show outline.entry.where(
-  level: 1
-): it => {
-  v(12pt, weak: true)
-  strong(it)
-}
-
 #let biobox(body) = {
   set align(center) 
   v(1em)
@@ -107,12 +95,6 @@
   image("articlestart.png", width: 30pt)}
 
 #set heading(numbering: "I.")
-#show heading.where(
-level: 2
-): it => block(width: 100% )[
-    #set align(center)
-    #set text(font: "IBM Plex Sans", weight: 500)
-  ]
 
 #set text(
   font: "IBM Plex Sans",
@@ -122,20 +104,4 @@ level: 2
   article-header
   content
 }
-
-#show outline.entry.where(
-  level: 1,
-  body: [Distinguished Contributions]
-): it => {
-  set text(font: "IBM Plex Sans", size: 12pt, stretch: 75%, weight: 300)
-  link(it.element.location(), box(width: 100%)[
-    #v(2em)
-    #it.body
-    #v(1em)
-  ])
-}
-
-#set footnote.entry(
-  separator: repeat[.]
-)
 

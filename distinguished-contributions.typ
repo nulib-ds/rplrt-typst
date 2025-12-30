@@ -1,1 +1,3 @@
-#heading(level: 1)[Distinguished Contributions]
+#import "elements.typ": *
+#set align(horizon)
+= Distinguished Contributions

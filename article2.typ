@@ -53,7 +53,7 @@ believe or reject that what they already, in some sense, believe.  ]
     ] else [
       #set align(center)
       #set text(font: "IBM Plex Sans", size: 11pt, weight: 300, tracking: .1em)
-  #upper([_Varieties of Belief in _The Brothers Karamazov__])
+  #upper([_Varieties of Belief in _The Brothers Karamazov])
     ]
   }
 )
@@ -66,8 +66,31 @@ believe or reject that what they already, in some sense, believe.  ]
 
 #set par(justify: true)
 
+#show outline.entry.where(level: 2): it => {
+  if it.element.body == [Varieties of Belief in \ _The Brothers Karamazov_] {
+    box(width: 100%)[
+      #text(size: 10pt, font: "IBM Plex Sans", stretch: 75%)[Varieties of Belief in The Brothers Karamazov] 
+      #linebreak()
+      #grid(
+        columns: (auto, 1fr, auto),
+        gutter: 0pt,
+        text(size: 10pt, font: "IBM Plex Sans", stretch: 75%, weight: 300)[_by_ Gary Saul Morson #h(0.5em)],
+        box(width: 98%)[#v(-0.7em)#h(1fr) #repeat([.], gap: 0.15em) #h(-1.5em)],
+        text(size: 10pt, font: "IBM Plex Sans")[#it.element.location().page()]
+      )
+    ]
+  } else {
+    it
+  }
+}
+#show outline.entry.where(level: 2): it => link(
+  it.element.location(),
+  [
+  #set text(font: "IBM Plex Sans", stretch: 75%, size: 10pt)[Varieties of Belief in _The Brothers Karamazov_ \ by Gary Saul Morson]]
+)
+#heading(level: 2, outlined: true)[Varieties of Belief in \ _The Brothers Karamazov_]
 
-#heading(level: 2)[Varieties of Belief in \ _The Brothers Karamazov_]
+
 #v(1em)
 
 #author[Gary Saul Morson]
