@@ -364,8 +364,7 @@ French resistance. He wrote articles against communism, fascism, and
 antisemitism. It is no wonder that Alexander Solzhenitsyn later praised
 Berdyaev as “a brilliant defender of human freedom against
 ideology.”#footnote[Ol'ga Volkogonova, #emph[Berdiaev] (Moscow: Molodaia
-Gvardiia, 2010), 29;
-
+Gvardiia, 2010), 29; \
 Vitalii Shentalinskii, “Oskolki serebrianogo veka,” #emph[Novyi mir],
 No. 5 (May 1998),
 #link("http://www.nm1925.ru/Archive/Journal6_1998_5/Content.aspx")\;

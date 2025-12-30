@@ -340,7 +340,7 @@ the Brezhnev Era]
 
 )
 
-#set text(font: "Libertinus Serif", hyphenate: true, costs: (widow: 10000%, orphan: 10000%, hyphenation: 100%), size: 12pt, spacing: 100% + 50%, )
+#set text(font: "Libertinus Serif", hyphenate: true, costs: (widow: 10000%, orphan: 10000%, hyphenation: 10%), size: 12pt, spacing: 50% + 100%)
 #set par(justify: true, first-line-indent: 1.5em)
 
 // Import and display copyright page
@@ -364,8 +364,8 @@ the Brezhnev Era]
 #siljak
 
 #pagebreak()
-#let siljak = include("./brand.typ")
-#siljak
+#let clay = include("./clay.typ")
+#clay
 
 #pagebreak()
 #let lightsey = include("./lightsey.typ")
